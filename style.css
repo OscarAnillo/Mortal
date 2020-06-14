@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: #000  ;
+}
+
+.nav {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+}
+
+.name h1 {
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+}
+
+.name p {
+    font-family: 'Comfortaa', cursive;
+    color: #fff;
+}
+
+.list a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Comfortaa', cursive;
+    color: #fff;
+}
+
+.list a:hover {
+    color: blueviolet;
+}
+
+/* Hero */
+
+.hero {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.hero__img {
+    background-image: url(./Images/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.hero__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hero__text h1 {
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.line {
+    border: 2px solid #fff;
+    width: 30%;
+    margin: 15px auto;
+
+}
+
+.hero__text p {
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.1rem;
+    width: 100%;
+    text-align: center;
+    text-shadow: 2px 2px 5px #000;
+}
+
+/* Main */
+
+.main {
+    
+    text-align: justify;
+}
+
+.main__text .scorpion {
+    color: rgb(165, 165, 59);
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 4px yellow;
+}
+
+.main__text .scorpion__p {
+    color: #fff;
+    width: 95%;
+    margin: auto;
+    font-family: 'Comfortaa', cursive;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.main__text .ms {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.main__text .ms__p {
+    color: #fff;
+    width: 95%;
+    margin: auto;
+    font-family: 'Comfortaa', cursive;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.main__text .rayden {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 5px blue;
+}
+
+.main__text .rayden__p {
+    color: #fff;
+    width: 95%;
+    margin: auto;
+    font-family: 'Comfortaa', cursive;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.main__text .kun {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px 4px red;
+}
+
+.main__text .kun__p {
+    color: #fff;
+    width: 95%;
+    margin: auto;
+    font-family: 'Comfortaa', cursive;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px){
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+    .logo h1 {
+        font-size: 1.8rem;
+        text-shadow: 1px 2px 2px red;
+    }
+    
+    .name h1 {
+        font-size: 1.8rem;
+        text-shadow: 1px 2px 2px blue;
+    }
+    
+    .list a {
+        margin-left: .3em;
+    }
+    
+    
+    /* Hero */
+    
+    
+    .hero__img {
+        background-image: url(./Images/hero.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        transition: .2s;
+    }
+
+    .hero__img:hover {
+        background-image: url(./Images/heroHover.jpg);
+        background-position: bottom left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+    }
+    
+    .hero__text {
+        
+        width: 100%;
+    }
+    .hero__text h1 {
+        font-size: 3.5rem;
+        
+    }
+    
+    .line {
+        
+        width: 20%;
+        margin: 15px auto;
+    
+    }
+    
+    .hero__text p {
+        
+        font-size: 1.3rem;
+        
+    }
+    
+    /* Main */
+    
+   
+    
+    .main__text .scorpion {
+        font-size: 2.5rem;
+        
+    }
+    
+    .main__text .scorpion__p {
+        font-size: 1.3rem;
+        line-height: 30px;
+        padding-bottom: 35px;
+    }
+    
+    .main__text .ms {
+        
+        font-size: 2.5rem;
+        
+    }
+    
+    .main__text .ms__p {
+        font-size: 1.3rem;
+        line-height: 30px;
+        padding-bottom: 35px;
+    }
+    
+    .main__text .rayden {
+        
+        font-size: 2.5rem;
+        
+    }
+    
+    .main__text .rayden__p {
+        font-size: 1.3rem;
+        line-height: 30px;
+        padding-bottom: 35px;
+    }
+    
+    .main__text .kun {
+        
+        font-size: 2.5rem;
+        
+    }
+    
+    .main__text .kun__p {
+        font-size: 1.3rem;
+        line-height: 30px;
+        padding-bottom: 35px;
+    }
+}
